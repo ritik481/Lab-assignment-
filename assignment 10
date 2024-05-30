@@ -1,0 +1,27 @@
+interface Animal {
+    void sound(); 
+}
+
+class Dog implements Animal {
+    public void sound() { 
+        System.out.println("Woof");
+    }
+}
+
+class Cat implements Animal {
+    public void sound() {
+        System.out.println("Meow");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog myDog = new Dog(); 
+        Cat myCat = new Cat(); 
+
+        myDog.sound();
+        myCat.sound();
+    }
+}
+# Lab-assignment-
+New file
