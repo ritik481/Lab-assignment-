@@ -1,0 +1,20 @@
+public class VariableScopeExample
+{
+
+private static int x=1; 
+public static int y=5;
+public static void main(String[] args)
+{ 
+    
+    System.out.println("Qass variable x "+x );
+    System.out.println("Local variable y "+y);
+    someMethod();
+
+}
+
+public static void someMethod() {
+    
+  System.out.println("Qass variable x fromsomeMethod "+x);
+ System.out.println("Local variable y fromsomeMethod "+y); 
+ 
+ }
